@@ -36,12 +36,13 @@ public class GameController : MonoBehaviour
 						count = 0;
 
 						GameObject killed = victimList [curVictimIndex];
-						victimList.RemoveAt (curVictimIndex);
-						--curVictimIndex;
 
 						if (killed == chosenVictim) {
 							Reset ();
 						} else {
+							victimList.RemoveAt (curVictimIndex);
+							--curVictimIndex;
+
 							Destroy (killed);
 						}
 					} else {
