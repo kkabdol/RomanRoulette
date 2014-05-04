@@ -46,9 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Pixelplacement\iTween\Plugins\iTween.cs" />
+     <Compile Include="Assets\Pixelplacement\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\Pixelplacement\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\Pixelplacement\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\Pixelplacement\iTweenPath\iTweenPath.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Tags.cs" />
      <Compile Include="Assets\Scripts\Victim.cs" />
+     <None Include="Assets\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
